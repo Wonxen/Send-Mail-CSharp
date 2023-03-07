@@ -33,6 +33,7 @@ namespace ConsoleApp1
 
                 Client.Send(Message);
                 Console.WriteLine("Başarıyla yazdığınız e-posta gönderildi.");
+                Console.ReadLine();
             }
             catch (Exception Ex)
             {
